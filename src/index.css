@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=DM+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #402d35;
+  background: #f8f0ec;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --cream: #f8f0ec;
+  --cream-light: #fffaf7;
+  --blush: #f0d8d2;
+  --blush-deep: #e8c1ba;
+  --burgundy: #72283c;
+  --burgundy-deep: #441e2a;
+  --wine: #642336;
+  --ink: #402d35;
+  --muted: #6b4d55;
+  --gold: #c4944b;
+  --gold-ink: #79501e;
+  --gold-light: #f1d09a;
+  --serif: 'Cormorant Garamond', Georgia, serif;
+  --script: 'Caveat', cursive;
+  --sans: 'DM Sans', sans-serif;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { color: var(--ink); font-size: 16px; line-height: 1.6; margin: 0; }
+body.intro-locked { overflow: hidden; }
+button, a { font: inherit; }
+button { cursor: pointer; }
+a { color: inherit; text-decoration: none; }
+:focus-visible { outline: 3px solid var(--burgundy); outline-offset: 4px; box-shadow: 0 0 0 7px var(--cream-light); }
+img { max-width: 100%; }
+button, a { -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
+#root { min-height: 100svh; }
+h1, h2, h3, p { margin: 0; }
